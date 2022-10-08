@@ -47,7 +47,6 @@ h2 {
    font-weight: 500;
    font-size: 20px;
    line-height: 24px;
-
 }
 
 *,
@@ -159,7 +158,7 @@ header {
    top: 0;
    z-index: 100;
    transition: all 0.5s ease;
-   height: 50px;
+   height: 70px;
    width: 100%;
    background: rgba(255, 255, 255, 0.5);
    backdrop-filter: blur(10px);
@@ -187,6 +186,7 @@ header {
    height: 737px;
    position: relative;
    border-bottom: 5px solid #F6F6F6;
+   overflow: hidden;
 }
 
 .video-bg {
@@ -205,7 +205,6 @@ header {
 .promo1__wrapper {
    position: relative;
    display: flex;
-   justify-content: space-between;
    flex-direction: column;
    justify-content: space-evenly;
    justify-items: center;
@@ -236,10 +235,10 @@ header {
 }
 
 .promo1__product-img {
-   object-fit: cover;
+   object-fit: contain;
    object-position: center;
-   max-width: 192px;
-   max-height: 297px;
+   width: 192px;
+   height: 297px;
 }
 
 /*compound*/
@@ -271,7 +270,7 @@ header {
    background: var(--linner-ripe-malinka);
    width: 190px;
    height: 190px;
-   left: 70%;
+   right: 25%;
    top: 106px;
 }
 
@@ -320,7 +319,7 @@ header {
    border-radius: 20px;
 }
 
-.compound__product-img{
+.compound__product-img {
    position: relative;
    left: 34px;
    height: 192px;
@@ -349,7 +348,7 @@ header {
 .compound__item-title {
    position: absolute;
    bottom: 10px;
-   background: rgba(255,255,255,0.8);
+   background: rgba(255, 255, 255, 0.8);
    padding: 0 6px;
 }
 
